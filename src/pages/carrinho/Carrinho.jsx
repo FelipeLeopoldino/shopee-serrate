@@ -143,6 +143,7 @@ const Carrinho = () => {
                >
                   Finalizar Compra
                </Button>
+
                <Modal
                   open={open}
                   onClose={handleClose}
@@ -162,12 +163,17 @@ const Carrinho = () => {
                      </Typography>
                      <Typography>Volte Sempre!</Typography>
                      <Link to={'/'} reloadDocument>
-                        <button
+                        <IconButton
+                           color={'primary'}
                            className={styles.btn_voltar}
                            onClick={finalizarCompra}
+                           style={{
+                              marginLeft: '250px',
+                              textDecoration: 'nome'
+                           }}
                         >
                            Voltar
-                        </button>
+                        </IconButton>
                      </Link>
                   </Box>
                </Modal>
