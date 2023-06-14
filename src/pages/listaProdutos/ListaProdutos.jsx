@@ -46,20 +46,6 @@ const ListaProdutos = () => {
       return filteredProducts
    }
 
-   const incrementarFeedbackPositivo = index => {
-      const incrementar = [...data]
-      incrementar[index].feedbacksPositivos++
-      setData(incrementar)
-   }
-
-   const decrementarFeedbackPositivo = index => {
-      const decrementar = [...data]
-      if (decrementar[index].feedbacksNegativos > 0) {
-         decrementar[index].feedbacksNegativos++
-         setData(decrementar)
-      }
-   }
-
    const GlobalState = useContext(CarrinhoContext)
    const dispatch = GlobalState.dispatch
 

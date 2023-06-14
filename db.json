@@ -20,7 +20,7 @@
       "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
       "feedbacksPositivos": 4,
       "feedbacksNegativos": 5,
-      "amount": 46
+      "amount": 3
     },
     {
       "id": 3,
@@ -31,7 +31,11 @@
       "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
       "feedbacksPositivos": 13,
       "feedbacksNegativos": 5,
+<<<<<<< HEAD
       "amount": 10
+=======
+      "amount": 2
+>>>>>>> 13f6538800f557e6268ca75242138bd7d55b1cc1
     },
     {
       "id": 4,
